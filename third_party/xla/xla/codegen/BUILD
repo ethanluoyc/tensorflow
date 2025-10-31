@@ -34,7 +34,7 @@ cc_library(
         "@com_google_absl//absl/strings:string_view",
         "@llvm-project//mlir:IR",
         "@llvm-project//mlir:Support",
-        "@local_tsl//tsl/platform",
+        "@tsl//tsl/platform",
     ] + if_google(["@com_google_absl//absl/types:source_location"]),
 )
 
@@ -54,7 +54,7 @@ xla_cc_test(
         "@com_google_googletest//:gtest_main",
         "@llvm-project//mlir:ArithDialect",
         "@llvm-project//mlir:IR",
-        "@local_tsl//tsl/platform:status_matchers",
+        "@tsl//tsl/platform:status_matchers",
     ],
 )
 
@@ -201,8 +201,8 @@ xla_cc_test(
         "//xla/tsl/platform:statusor",
         "@com_google_absl//absl/status:status_matchers",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:status_matchers",
-        "@local_tsl//tsl/platform:test",
+        "@tsl//tsl/platform:status_matchers",
+        "@tsl//tsl/platform:test",
     ],
 )
 
@@ -287,6 +287,6 @@ cc_library(
         "@com_google_absl//absl/strings:string_view",
         "@llvm-project//mlir:IR",
         "@llvm-project//mlir:Pass",
-        "@local_tsl//tsl/profiler/lib:traceme",
+        "@tsl//tsl/profiler/lib:traceme",
     ],
 )

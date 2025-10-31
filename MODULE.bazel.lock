@@ -16,6 +16,7 @@
     "https://bcr.bazel.build/modules/abseil-cpp/20250127.1/MODULE.bazel": "c4a89e7ceb9bf1e25cf84a9f830ff6b817b72874088bf5141b314726e46a57c1",
     "https://bcr.bazel.build/modules/abseil-cpp/20250512.0/MODULE.bazel": "c4d02dd22cd87458516655a45512060246ee2a4732f1fbe948a5bd9eb614e626",
     "https://bcr.bazel.build/modules/abseil-cpp/20250512.1/MODULE.bazel": "d209fdb6f36ffaf61c509fcc81b19e81b411a999a934a032e10cd009a0226215",
+    "https://bcr.bazel.build/modules/abseil-cpp/20250814.0/MODULE.bazel": "c43c16ca2c432566cdb78913964497259903ebe8fb7d9b57b38e9f1425b427b8",
     "https://bcr.bazel.build/modules/abseil-cpp/20250814.1/MODULE.bazel": "51f2312901470cdab0dbdf3b88c40cd21c62a7ed58a3de45b365ddc5b11bcab2",
     "https://bcr.bazel.build/modules/abseil-cpp/20250814.1/source.json": "cea3901d7e299da7320700abbaafe57a65d039f10d0d7ea601c4a66938ea4b0c",
     "https://bcr.bazel.build/modules/abseil-py/2.1.0/MODULE.bazel": "5ebe5bf853769c65707e5c28f216798f7a4b1042015e6a36e6d03094d94bec8a",
@@ -68,6 +69,8 @@
     "https://bcr.bazel.build/modules/bazel_features/1.4.1/MODULE.bazel": "e45b6bb2350aff3e442ae1111c555e27eac1d915e77775f6fdc4b351b758b5d7",
     "https://bcr.bazel.build/modules/bazel_features/1.9.0/MODULE.bazel": "885151d58d90d8d9c811eb75e3288c11f850e1d6b481a8c9f766adee4712358b",
     "https://bcr.bazel.build/modules/bazel_features/1.9.1/MODULE.bazel": "8f679097876a9b609ad1f60249c49d68bfab783dd9be012faf9d82547b14815a",
+    "https://bcr.bazel.build/modules/bazel_jar_jar/0.1.7/MODULE.bazel": "d2736a1dbfd8f72befc532823b5112f2597a28064ce4aac280c65bee7d8830a0",
+    "https://bcr.bazel.build/modules/bazel_jar_jar/0.1.7/source.json": "f894f62528821f749b8d57fb8fb737b13f6cfacde422c88019d4c48077ad0d96",
     "https://bcr.bazel.build/modules/bazel_skylib/1.0.3/MODULE.bazel": "bcb0fd896384802d1ad283b4e4eb4d718eebd8cb820b0a2c3a347fb971afd9d8",
     "https://bcr.bazel.build/modules/bazel_skylib/1.1.1/MODULE.bazel": "1add3e7d93ff2e6998f9e118022c84d163917d912f5afafb3058e3d2f1545b5e",
     "https://bcr.bazel.build/modules/bazel_skylib/1.2.0/MODULE.bazel": "44fe84260e454ed94ad326352a698422dbe372b21a1ac9f3eab76eb531223686",
@@ -236,14 +239,17 @@
     "https://bcr.bazel.build/modules/contrib_rules_jvm/0.27.0/source.json": "966fcac19d6d8a0f3c8239fbd1a3ff0bff0a6ec34efbaa9ba5cadfd5b04729b6",
     "https://bcr.bazel.build/modules/crc32c/1.1.0/MODULE.bazel": "f11439d063a2b4e0f19b56bb8da6a931f9691bf583bd1ec0718645bce6c62b06",
     "https://bcr.bazel.build/modules/crc32c/1.1.0/source.json": "aabc6ce46d4b71343d500270c2ddfd45f59cff9fd171313bdd773bf620cf2a6f",
+    "https://bcr.bazel.build/modules/curl/8.11.0/MODULE.bazel": "8c62b50f3f22b9a6cf9627a1295c792b9da3f841b40ec71cdc8ed61a220071f2",
+    "https://bcr.bazel.build/modules/curl/8.11.0/source.json": "5c7ded06d1a2463b41fe4530afb2aeb7479b13c24cbdde844d95779e6d2033ea",
     "https://bcr.bazel.build/modules/curl/8.7.1/MODULE.bazel": "088221c35a2939c555e6e47cb31a81c15f8b59f4daa8009b1e9271a502d33485",
     "https://bcr.bazel.build/modules/curl/8.8.0.bcr.3/MODULE.bazel": "df703a5a606a5bc264a95940113daa44197dc211f51230dd058323f2aa50efca",
-    "https://bcr.bazel.build/modules/curl/8.8.0.bcr.3/source.json": "ef03f6b660515bcfc9e284e8bdd3679895cc28afdaecd794a6059d47f22d1df1",
     "https://bcr.bazel.build/modules/curl/8.8.0/MODULE.bazel": "7da3b3e79b0b4ee8f8c95d640bc6ad7b430ce66ef6e9c9d2bc29b3b5ef85f6fe",
     "https://bcr.bazel.build/modules/cython/3.0.11-1/MODULE.bazel": "868b3f5c956c3657420d2302004c6bb92606bfa47e314bab7f2ba0630c7c966c",
     "https://bcr.bazel.build/modules/cython/3.0.11-1/source.json": "da318be900b8ca9c3d1018839d3bebc5a8e1645620d0848fa2c696d4ecf7c296",
     "https://bcr.bazel.build/modules/eigen/3.4.0.bcr.2/MODULE.bazel": "23fd0e097bfc0952632b854377b79ccee80fd473db6d55e0e26fce80a919f0c5",
-    "https://bcr.bazel.build/modules/eigen/3.4.0.bcr.2/source.json": "517be47a2886a9fd0918674f381a6ff1b9db6468af36f062e0c03b2f4a419ef6",
+    "https://bcr.bazel.build/modules/eigen/4.0.0-20241125.bcr.3/MODULE.bazel": "dcf78bf26808d4e1b22c71336c6e3719e0c90d92372020fc375d6724fb722ab2",
+    "https://bcr.bazel.build/modules/eigen/4.0.0-20241125.bcr.3/source.json": "7ee1be7ae83eb957fb0322417e6c8375248d275cd59ea22a6cbb6ac6ad2f3745",
+    "https://bcr.bazel.build/modules/envoy_api/0.0.0-20241214-918efc9/MODULE.bazel": "24e05f6f52f37be63a795192848555a2c8c855e7814dbc1ed419fb04a7005464",
     "https://bcr.bazel.build/modules/envoy_api/0.0.0-20250128-4de3c74/MODULE.bazel": "1fe72489212c530086e3ffb0e018b2bfef4663200ca03571570f9f006bef1d75",
     "https://bcr.bazel.build/modules/envoy_api/0.0.0-20250128-4de3c74/source.json": "028519164a2e24563f4b43d810fdedc702daed90e71e7042d45ba82ad807b46f",
     "https://bcr.bazel.build/modules/flatbuffers/25.2.10/MODULE.bazel": "dab15cafe8512d2c4a8daa44c2d7968c5c79f01e220d40076cdc260bf58605e2",
@@ -295,7 +301,10 @@
     "https://bcr.bazel.build/modules/googletest/1.17.0/MODULE.bazel": "dbec758171594a705933a29fcf69293d2468c49ec1f2ebca65c36f504d72df46",
     "https://bcr.bazel.build/modules/grpc-java/1.62.2/MODULE.bazel": "99b8771e8c7cacb130170fed2a10c9e8fed26334a93e73b42d2953250885a158",
     "https://bcr.bazel.build/modules/grpc-java/1.66.0/MODULE.bazel": "86ff26209fac846adb89db11f3714b3dc0090fb2fb81575673cc74880cda4e7e",
+    "https://bcr.bazel.build/modules/grpc-java/1.75.0/MODULE.bazel": "76c4511c90395a31ef62c99c7e9edf63ada1fbc0fe48fbecdcb519e008a21ae3",
+    "https://bcr.bazel.build/modules/grpc-java/1.75.0/source.json": "3403c48f70569d892ad18f53912b7ee120544dc3baf719402b47a1a3d033684f",
     "https://bcr.bazel.build/modules/grpc-proto/0.0.0-20240627-ec30f58/MODULE.bazel": "88de79051e668a04726e9ea94a481ec6f1692086735fd6f488ab908b3b909238",
+    "https://bcr.bazel.build/modules/grpc-proto/0.0.0-20240627-ec30f58/source.json": "5035d379c61042930244ab59e750106d893ec440add92ec0df6a0098ca7f131d",
     "https://bcr.bazel.build/modules/highs/1.9.0/MODULE.bazel": "76a6b90cef0630db604b3ee3e004ea54ea92bf4bcb2fbe9cf619eb9d2dc8c651",
     "https://bcr.bazel.build/modules/highs/1.9.0/source.json": "40f023f93f0bdcaeb14cfd3975c9b6f2f9a0315201791611ca203450f2b4c028",
     "https://bcr.bazel.build/modules/highwayhash/0.0.0-20240305-5ad3bf8/MODULE.bazel": "5c7f29d5bd70feff14b0f65b39584957e18e4a8d555e5a29a4c36019afbb44b9",
@@ -455,6 +464,7 @@
     "https://bcr.bazel.build/modules/rules_java/6.0.0/MODULE.bazel": "8a43b7df601a7ec1af61d79345c17b31ea1fedc6711fd4abfd013ea612978e39",
     "https://bcr.bazel.build/modules/rules_java/6.1.1/MODULE.bazel": "124151afe9d8e797c5779a5d7fa88ff3ef7a2a283dcc435c62626a216d6aab8e",
     "https://bcr.bazel.build/modules/rules_java/6.3.0/MODULE.bazel": "a97c7678c19f236a956ad260d59c86e10a463badb7eb2eda787490f4c969b963",
+    "https://bcr.bazel.build/modules/rules_java/6.3.1/MODULE.bazel": "5a3471c8b84d53d58d5f6e316313680d7dd2c70afac696dbe14b761b0b5c6a06",
     "https://bcr.bazel.build/modules/rules_java/6.4.0/MODULE.bazel": "e986a9fe25aeaa84ac17ca093ef13a4637f6107375f64667a15999f77db6c8f6",
     "https://bcr.bazel.build/modules/rules_java/6.5.2/MODULE.bazel": "1d440d262d0e08453fa0c4d8f699ba81609ed0e9a9a0f02cd10b3e7942e61e31",
     "https://bcr.bazel.build/modules/rules_java/7.1.0/MODULE.bazel": "30d9135a2b6561c761bd67bd4990da591e6bdc128790ce3e7afd6a3558b2fb64",
@@ -540,7 +550,8 @@
     "https://bcr.bazel.build/modules/rules_shell/0.3.0/MODULE.bazel": "de4402cd12f4cc8fda2354fce179fdb068c0b9ca1ec2d2b17b3e21b24c1a937b",
     "https://bcr.bazel.build/modules/rules_shell/0.4.0/MODULE.bazel": "0f8f11bb3cd11755f0b48c1de0bbcf62b4b34421023aa41a2fc74ef68d9584f0",
     "https://bcr.bazel.build/modules/rules_shell/0.4.1/MODULE.bazel": "00e501db01bbf4e3e1dd1595959092c2fadf2087b2852d3f553b5370f5633592",
-    "https://bcr.bazel.build/modules/rules_shell/0.4.1/source.json": "4757bd277fe1567763991c4425b483477bb82e35e777a56fd846eb5cceda324a",
+    "https://bcr.bazel.build/modules/rules_shell/0.6.1/MODULE.bazel": "72e76b0eea4e81611ef5452aa82b3da34caca0c8b7b5c0c9584338aa93bae26b",
+    "https://bcr.bazel.build/modules/rules_shell/0.6.1/source.json": "20ec05cd5e592055e214b2da8ccb283c7f2a421ea0dc2acbf1aa792e11c03d0c",
     "https://bcr.bazel.build/modules/rules_swift/1.16.0/MODULE.bazel": "4a09f199545a60d09895e8281362b1ff3bb08bbde69c6fc87aff5b92fcc916ca",
     "https://bcr.bazel.build/modules/rules_swift/2.1.1/MODULE.bazel": "494900a80f944fc7aa61500c2073d9729dff0b764f0e89b824eb746959bc1046",
     "https://bcr.bazel.build/modules/rules_swift/2.1.1/source.json": "40fc69dfaac64deddbb75bd99cdac55f4427d9ca0afbe408576a65428427a186",
@@ -551,7 +562,8 @@
     "https://bcr.bazel.build/modules/scip/9.2.0.bcr.3/MODULE.bazel": "c5f8ebefa7fe493ae7412f5268081187228a30cf3919b0d983bbd053f2c32d7f",
     "https://bcr.bazel.build/modules/scip/9.2.0.bcr.3/source.json": "1df3dbb6a949d3acaa7aa2bc024abb04675fd254860daea02394606e97589cbc",
     "https://bcr.bazel.build/modules/snappy/1.2.0/MODULE.bazel": "cc7a727b46089c7fdae0ede21b1fd65bdb14d01823da118ef5c48044f40b6b27",
-    "https://bcr.bazel.build/modules/snappy/1.2.0/source.json": "17f5527e15d30a9d9eebf79ed73b280b56cac44f8c8fea696666d99943f84c33",
+    "https://bcr.bazel.build/modules/snappy/1.2.1/MODULE.bazel": "ccfc05c2f321f33fa4190a57280f3b0b428982f7c66618f2acadf162fa0bbb95",
+    "https://bcr.bazel.build/modules/snappy/1.2.1/source.json": "9a3e0181edc27543b4304f377a216ad09e014859db57921261552d0a4939ee1d",
     "https://bcr.bazel.build/modules/soplex/7.1.2.bcr.1/MODULE.bazel": "25212bddb61e56fab42b7e4faf039880aa868b1a116621fba5941eb6db41b393",
     "https://bcr.bazel.build/modules/soplex/7.1.2.bcr.1/source.json": "6a779e6c9e55ceb90a5acf1ea09a6a275359faee4d540451ecd96b5c385e0b3f",
     "https://bcr.bazel.build/modules/stardoc/0.5.0/MODULE.bazel": "f9f1f46ba8d9c3362648eea571c6f9100680efc44913618811b58cc9c02cd678",
@@ -940,7 +952,7 @@
     "@@pybind11_bazel~//:internal_configure.bzl%internal_configure_extension": {
       "general": {
         "bzlTransitiveDigest": "Jsid+Er+k0JcuPNjK83nTid7q9/fJQeD+ntFHFVkKQg=",
-        "usagesDigest": "JgPy4R/bTaZI3tbSqKbpHTkkO9VKJFRMl8WJYLg/ufw=",
+        "usagesDigest": "5MIQqnEtAzWzwn9pLLffXlJKhNORGiJ5CEdslb68iH0=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -1054,7 +1066,7 @@
     "@@rules_ml_toolchain~//third_party/extensions:cuda_configure.bzl%cuda_configure_ext": {
       "general": {
         "bzlTransitiveDigest": "52jmpiOJEBaqYGk41HZOmAwZxTu4gva6UQhq9yWkprg=",
-        "usagesDigest": "6w031YfoS8ayIVb42XPuv3iWXybsv3RY/x5O/NYh7Z0=",
+        "usagesDigest": "Z63cFU2EVNSpNU/iAPPliGRli/pH7NWvLVIQPMWSAtM=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -1549,7 +1561,7 @@
     "@@rules_ml_toolchain~//third_party/extensions:cuda_redist_init.bzl%cuda_redist_init_ext": {
       "general": {
         "bzlTransitiveDigest": "xiZyhG0R8J558yz7lyNGAbWNCNvBtu4DCUSw8xnveuI=",
-        "usagesDigest": "at3leB9T+EbOWOkgi3RgvU/8QAly2nKULOu0HT4U5dg=",
+        "usagesDigest": "swJZnjzm6HqwKK/7AHcySyv0EG5RdmERwXuFJJNf5rM=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -2207,7 +2219,7 @@
     "@@rules_ml_toolchain~//third_party/extensions:nccl_configure.bzl%nccl_configure_ext": {
       "general": {
         "bzlTransitiveDigest": "go0VdfatkFnrQOf5OKVynSpHXPiojLMAVNHLyjBQUT8=",
-        "usagesDigest": "yHOsQNLAlFO6oU4Gpak0KXa+JEW1H3yq19Re6+3qJfE=",
+        "usagesDigest": "/GbWTFHajL7oCmsIlKQCdrepGM2RtkLNZyx4a36MZkQ=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -2449,7 +2461,7 @@
     "@@rules_ml_toolchain~//third_party/extensions:sycl_configure.bzl%sycl_configure_ext": {
       "general": {
         "bzlTransitiveDigest": "2DJvFJq/jcO/kiC6VlOIW5vTmI8WGjXTcCTQW9hgDjs=",
-        "usagesDigest": "fL/jq0XEemklK9gzEy5wIkCtg2aTNzuuFsIaFOrnauk=",
+        "usagesDigest": "EKlE3h5hpWdtHsWJIee7KFyBDFeeiCtJV5KgUy/X9/4=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -3013,6 +3025,718 @@
             "bazel_tools"
           ]
         ]
+      }
+    },
+    "@@xla~//third_party/extensions:llvm.bzl%llvm_extension": {
+      "general": {
+        "bzlTransitiveDigest": "6FFscAaE3m115yIY9uP4q7kN2QZwMheFVwR/i15b9gk=",
+        "usagesDigest": "o+c3UjK8OvpG13SEqzWRN5Hn385tE8oavMORFdcRlHI=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "llvm-project": {
+            "bzlFile": "@@xla~~third_party_ext~llvm-raw//utils/bazel:configure.bzl",
+            "ruleClassName": "llvm_configure",
+            "attributes": {
+              "targets": [
+                "AArch64",
+                "AMDGPU",
+                "ARM",
+                "NVPTX",
+                "PowerPC",
+                "RISCV",
+                "SystemZ",
+                "X86"
+              ]
+            }
+          }
+        },
+        "recordedRepoMappingEntries": [
+          [
+            "xla~",
+            "llvm-raw",
+            "xla~~third_party_ext~llvm-raw"
+          ]
+        ]
+      }
+    },
+    "@@xla~//third_party/extensions:python_version.bzl%python_version_ext": {
+      "general": {
+        "bzlTransitiveDigest": "U/A7UaUaNuzBH9Re5KSvZaavBlDwDN+mXTtRn4e+VII=",
+        "usagesDigest": "pOtZb2wl1jI5Av628TRmPzLJX3EsSbY0ihXqHgHNLJ4=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "python_version_repo": {
+            "bzlFile": "@@xla~//third_party/extensions:python_version.bzl",
+            "ruleClassName": "python_version_repo",
+            "attributes": {}
+          }
+        },
+        "recordedRepoMappingEntries": []
+      }
+    },
+    "@@xla~//third_party/extensions:remote_execution_configure.bzl%remote_execution_configure_ext": {
+      "general": {
+        "bzlTransitiveDigest": "fqcThFFSNV70+M24+wL1gAPrlpiXrhLeNohVpD2I4Tw=",
+        "usagesDigest": "lW/DWJw0Z6c1kCPeUSTDORhHbC3wTNvT2La+jxzOahs=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "local_config_remote_execution": {
+            "bzlFile": "@@xla~//tools/toolchains/remote:configure.bzl",
+            "ruleClassName": "remote_execution_configure",
+            "attributes": {}
+          }
+        },
+        "recordedRepoMappingEntries": []
+      }
+    },
+    "@@xla~//third_party/extensions:rocm_configure.bzl%rocm_configure_ext": {
+      "general": {
+        "bzlTransitiveDigest": "mIQLeSQfEQpoXHvmg3L6HkzygqaL5HKhtLgzho9nn4Q=",
+        "usagesDigest": "fHvBNRFd5zrxYCU7MSiCGQ8o52mPBUlvT0gOla5ORVk=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "local_config_rocm": {
+            "bzlFile": "@@xla~//third_party/gpus:rocm_configure.bzl",
+            "ruleClassName": "rocm_configure",
+            "attributes": {}
+          }
+        },
+        "recordedRepoMappingEntries": []
+      }
+    },
+    "@@xla~//third_party/extensions:tensorrt_configure.bzl%tensorrt_configure_ext": {
+      "general": {
+        "bzlTransitiveDigest": "Me1nFTYeOKO5oN1j3mD3r4+TPl6ZhjiYCwiO2kOUBsM=",
+        "usagesDigest": "ZlY7OzSHE3NUJNzc/Vmn7YfSzqvPSu4iEiP4HACpQXw=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "local_config_tensorrt": {
+            "bzlFile": "@@xla~//third_party/tensorrt:tensorrt_configure.bzl",
+            "ruleClassName": "tensorrt_configure",
+            "attributes": {}
+          }
+        },
+        "recordedRepoMappingEntries": []
+      }
+    },
+    "@@xla~//third_party/extensions:third_party.bzl%third_party_ext": {
+      "general": {
+        "bzlTransitiveDigest": "/WI/GvgUBSgcEQE44u1ffpBg2J6MKFi7ikhbG15DGq8=",
+        "usagesDigest": "jLvDdGzQ2SHXYrohNecKJQ+KCyJco+JrsMozFkDA4TY=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "com_google_benchmark": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "552ca3d4d1af4beeb1907980f7096315aa24150d6baf5ac1e5ad90f04846c670",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/google/benchmark/archive/f7547e29ccaed7b64ef4f7495ecfff1c9f6f3d03.tar.gz",
+                "https://github.com/google/benchmark/archive/f7547e29ccaed7b64ef4f7495ecfff1c9f6f3d03.tar.gz"
+              ],
+              "strip_prefix": "benchmark-f7547e29ccaed7b64ef4f7495ecfff1c9f6f3d03"
+            }
+          },
+          "cpuinfo": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "c0254ce97f7abc778dd2df0aaca1e0506dba1cd514fdb9fe88c07849393f8ef4",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/pytorch/cpuinfo/archive/8a9210069b5a37dd89ed118a783945502a30a4ae.zip",
+                "https://github.com/pytorch/cpuinfo/archive/8a9210069b5a37dd89ed118a783945502a30a4ae.zip"
+              ],
+              "strip_prefix": "cpuinfo-8a9210069b5a37dd89ed118a783945502a30a4ae"
+            }
+          },
+          "cudnn_frontend_archive": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "257b3b7f8a99abc096094abc9e5011659117b647d55293bcd2c5659f9181b99e",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/NVIDIA/cudnn-frontend/archive/refs/tags/v1.13.0.zip",
+                "https://github.com/NVIDIA/cudnn-frontend/archive/refs/tags/v1.13.0.zip"
+              ],
+              "build_file": "//third_party:cudnn_frontend.BUILD",
+              "patch_file": [
+                "//third_party:cudnn_frontend_header_fix.patch"
+              ],
+              "strip_prefix": "cudnn-frontend-1.13.0"
+            }
+          },
+          "dlpack": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "2e3b94b55825c240cc58e6721e15b449978cbae21a2a4caa23058b0157ee2fb3",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/dmlc/dlpack/archive/refs/tags/v1.1.tar.gz",
+                "https://github.com/dmlc/dlpack/archive/refs/tags/v1.1.tar.gz"
+              ],
+              "strip_prefix": "dlpack-1.1",
+              "build_file": "//third_party/dlpack:dlpack.BUILD"
+            }
+          },
+          "ducc": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "077cf4bd0bd7eddaa6649a024285fff96e2662c5e6f2fb6ed5c5771f9de093f3",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/gitlab.mpcdf.mpg.de/mtr/ducc/-/archive/aa46a4c21e440b3d416c16eca3c96df19c74f316/ducc-aa46a4c21e440b3d416c16eca3c96df19c74f316.tar.gz",
+                "https://gitlab.mpcdf.mpg.de/mtr/ducc/-/archive/aa46a4c21e440b3d416c16eca3c96df19c74f316/ducc-aa46a4c21e440b3d416c16eca3c96df19c74f316.tar.gz"
+              ],
+              "strip_prefix": "ducc-aa46a4c21e440b3d416c16eca3c96df19c74f316",
+              "build_file": "//third_party/ducc:ducc.BUILD",
+              "link_files": {
+                "//third_party/ducc:ducc0_custom_lowlevel_threading.h": "google/ducc0_custom_lowlevel_threading.h",
+                "//third_party/ducc:fft.h": "google/fft.h",
+                "//third_party/ducc:fft.cc": "google/fft.cc",
+                "//third_party/ducc:threading.cc": "google/threading.cc",
+                "//third_party/ducc:threading.h": "google/threading.h"
+              }
+            }
+          },
+          "eigen_archive": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "78d1158871b8d3663cead3fb3c482721155df9a331d94cfcc60bcdf5cdbf18e1",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/gitlab.com/libeigen/eigen/-/archive/70d8d99d0df9fd967b135efd8d12ed20fc48d007/eigen-70d8d99d0df9fd967b135efd8d12ed20fc48d007.tar.gz",
+                "https://gitlab.com/libeigen/eigen/-/archive/70d8d99d0df9fd967b135efd8d12ed20fc48d007/eigen-70d8d99d0df9fd967b135efd8d12ed20fc48d007.tar.gz"
+              ],
+              "build_file": "//third_party/eigen3:eigen_archive.BUILD",
+              "strip_prefix": "eigen-70d8d99d0df9fd967b135efd8d12ed20fc48d007"
+            }
+          },
+          "farmhash_archive": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "18392cf0736e1d62ecbb8d695c31496b6507859e8c75541d7ad0ba092dc52115",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/google/farmhash/archive/0d859a811870d10f53a594927d0d0b97573ad06d.tar.gz",
+                "https://github.com/google/farmhash/archive/0d859a811870d10f53a594927d0d0b97573ad06d.tar.gz"
+              ],
+              "build_file": "//third_party/farmhash:farmhash.BUILD",
+              "strip_prefix": "farmhash-0d859a811870d10f53a594927d0d0b97573ad06d"
+            }
+          },
+          "farmhash_gpu_archive": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "18392cf0736e1d62ecbb8d695c31496b6507859e8c75541d7ad0ba092dc52115",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/google/farmhash/archive/0d859a811870d10f53a594927d0d0b97573ad06d.tar.gz",
+                "https://github.com/google/farmhash/archive/0d859a811870d10f53a594927d0d0b97573ad06d.tar.gz"
+              ],
+              "build_file": "//third_party/farmhash:farmhash_gpu.BUILD",
+              "patch_file": [
+                "//third_party/farmhash:farmhash_support_cuda.patch"
+              ],
+              "strip_prefix": "farmhash-0d859a811870d10f53a594927d0d0b97573ad06d"
+            }
+          },
+          "fmt": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "3d794d3cf67633b34b2771eb9f073bde87e846e0d395d254df7b211ef1ec7346",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/fmtlib/fmt/archive/refs/tags/8.1.1.tar.gz",
+                "https://github.com/fmtlib/fmt/archive/refs/tags/8.1.1.tar.gz"
+              ],
+              "strip_prefix": "fmt-8.1.1",
+              "build_file": "//third_party/fmt:fmt.BUILD"
+            }
+          },
+          "FP16": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "d973501a40c55126b31accc2d9f08d931ec3cc190c0430309a5e341d3c0ce32a",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/Maratyszcza/FP16/archive/4dfe081cf6bcd15db339cf2680b9281b8451eeb3.zip",
+                "https://github.com/Maratyszcza/FP16/archive/4dfe081cf6bcd15db339cf2680b9281b8451eeb3.zip"
+              ],
+              "strip_prefix": "FP16-4dfe081cf6bcd15db339cf2680b9281b8451eeb3",
+              "build_file": "//third_party/FP16:FP16.BUILD"
+            }
+          },
+          "FXdiv": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "3d7b0e9c4c658a84376a1086126be02f9b7f753caa95e009d9ac38d11da444db",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/Maratyszcza/FXdiv/archive/63058eff77e11aa15bf531df5dd34395ec3017c8.zip",
+                "https://github.com/Maratyszcza/FXdiv/archive/63058eff77e11aa15bf531df5dd34395ec3017c8.zip"
+              ],
+              "strip_prefix": "FXdiv-63058eff77e11aa15bf531df5dd34395ec3017c8"
+            }
+          },
+          "gemmlowp": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "7dc418717c8456473fac4ff2288b71057e3dcb72894524c734a4362cdb51fa8b",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/google/gemmlowp/archive/16e8662c34917be0065110bfcd9cc27d30f52fdf.zip",
+                "https://github.com/google/gemmlowp/archive/16e8662c34917be0065110bfcd9cc27d30f52fdf.zip"
+              ],
+              "strip_prefix": "gemmlowp-16e8662c34917be0065110bfcd9cc27d30f52fdf"
+            }
+          },
+          "gloo": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "61089361dbdbc9d6f75e297148369b13f615a3e6b78de1be56cce74ca2f64940",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/facebookincubator/gloo/archive/54cbae0d3a67fa890b4c3d9ee162b7860315e341.tar.gz",
+                "https://github.com/facebookincubator/gloo/archive/54cbae0d3a67fa890b4c3d9ee162b7860315e341.tar.gz"
+              ],
+              "strip_prefix": "gloo-54cbae0d3a67fa890b4c3d9ee162b7860315e341",
+              "build_file": "//third_party/gloo:gloo.BUILD"
+            }
+          },
+          "highwayhash": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "c0e2b9931fbcce3bfbcd7999c3c114f404ac0f8b89775a5bbccbcaa501868e58",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/google/highwayhash/archive/c13d28517a4db259d738ea4886b1f00352a3cc33.tar.gz",
+                "https://github.com/google/highwayhash/archive/c13d28517a4db259d738ea4886b1f00352a3cc33.tar.gz"
+              ],
+              "strip_prefix": "highwayhash-c13d28517a4db259d738ea4886b1f00352a3cc33",
+              "build_file": "//third_party/highwayhash:highwayhash.BUILD"
+            }
+          },
+          "hwloc": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "4cb0a781ed980b03ad8c48beb57407aa67c4b908e45722954b9730379bc7f6d5",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/download.open-mpi.org/release/hwloc/v2.7/hwloc-2.7.1.tar.gz",
+                "https://download.open-mpi.org/release/hwloc/v2.7/hwloc-2.7.1.tar.gz"
+              ],
+              "strip_prefix": "hwloc-2.7.1",
+              "build_file": "//third_party/hwloc:hwloc.BUILD",
+              "system_build_file": "//third_party/hwloc:BUILD.system"
+            }
+          },
+          "implib_so": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "4ef3089969d57a5b60bb41b8212c478eaa15c56941f86d4bf5e7f98a3afd24e8",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/yugr/Implib.so/archive/2cce6cab8ff2c15f9da858ea0b68646a8d62aef2.tar.gz",
+                "https://github.com/yugr/Implib.so/archive/2cce6cab8ff2c15f9da858ea0b68646a8d62aef2.tar.gz"
+              ],
+              "strip_prefix": "Implib.so-2cce6cab8ff2c15f9da858ea0b68646a8d62aef2",
+              "build_file": "//third_party/implib_so:implib_so.BUILD"
+            }
+          },
+          "llvm_openmp": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "d19f728c8e04fb1e94566c8d76aef50ec926cd2f95ef3bf1e0a5de4909b28b44",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/llvm/llvm-project/releases/download/llvmorg-10.0.1/openmp-10.0.1.src.tar.xz",
+                "https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.1/openmp-10.0.1.src.tar.xz"
+              ],
+              "build_file": "//third_party/llvm_openmp:BUILD.bazel",
+              "patch_file": [
+                "//third_party/llvm_openmp:openmp_switch_default_patch.patch"
+              ],
+              "strip_prefix": "openmp-10.0.1.src"
+            }
+          },
+          "llvm-raw": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "e048b05e1fb9366e224ea3c06f8473714114039bfad00e81db4ecb6409f23efa",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/llvm/llvm-project/archive/32de3b9ef9e7e8debc14416e968456ca13b48bea.tar.gz",
+                "https://github.com/llvm/llvm-project/archive/32de3b9ef9e7e8debc14416e968456ca13b48bea.tar.gz"
+              ],
+              "strip_prefix": "llvm-project-32de3b9ef9e7e8debc14416e968456ca13b48bea",
+              "build_file": "//third_party/llvm:llvm.BUILD",
+              "patch_file": [
+                "//third_party/llvm:generated.patch",
+                "//third_party/llvm:build.patch",
+                "//third_party/llvm:mathextras.patch",
+                "//third_party/llvm:toolchains.patch",
+                "//third_party/llvm:zstd.patch"
+              ],
+              "link_files": {
+                "//third_party/llvm:run_lit.sh": "mlir/run_lit.sh"
+              }
+            }
+          },
+          "ml_dtypes_py": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "f6e5880666661351e6cd084ac4178ddc4dabcde7e9a73722981c0d1500cf5937",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/jax-ml/ml_dtypes/archive/00d98cd92ade342fef589c0470379abb27baebe9/ml_dtypes-00d98cd92ade342fef589c0470379abb27baebe9.tar.gz",
+                "https://github.com/jax-ml/ml_dtypes/archive/00d98cd92ade342fef589c0470379abb27baebe9/ml_dtypes-00d98cd92ade342fef589c0470379abb27baebe9.tar.gz"
+              ],
+              "build_file": "//third_party/py/ml_dtypes:ml_dtypes_py.BUILD",
+              "link_files": {
+                "//third_party/py/ml_dtypes:ml_dtypes.BUILD": "ml_dtypes/BUILD.bazel"
+              },
+              "strip_prefix": "ml_dtypes-00d98cd92ade342fef589c0470379abb27baebe9"
+            }
+          },
+          "mpitrampoline": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "5a36656205c472bdb639bffebb0f014523b32dda0c2cbedd9ce7abfc9e879e84",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/eschnett/mpitrampoline/archive/25efb0f7a4cd00ed82bafb8b1a6285fc50d297ed.tar.gz",
+                "https://github.com/eschnett/mpitrampoline/archive/25efb0f7a4cd00ed82bafb8b1a6285fc50d297ed.tar.gz"
+              ],
+              "strip_prefix": "MPItrampoline-25efb0f7a4cd00ed82bafb8b1a6285fc50d297ed",
+              "patch_file": [
+                "//third_party/mpitrampoline:gen.patch"
+              ],
+              "build_file": "//third_party/mpitrampoline:mpitrampoline.BUILD"
+            }
+          },
+          "nanobind": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "8ce3667dce3e64fc06bfb9b778b6f48731482362fb89a43da156632266cd5a90",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/wjakob/nanobind/archive/refs/tags/v2.9.2.tar.gz",
+                "https://github.com/wjakob/nanobind/archive/refs/tags/v2.9.2.tar.gz"
+              ],
+              "strip_prefix": "nanobind-2.9.2",
+              "build_file": "//third_party/nanobind:nanobind.BUILD"
+            }
+          },
+          "nasm": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "34fd26c70a277a9fdd54cb5ecf389badedaf48047b269d1008fbc819b24e80bc",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/www.nasm.us/pub/nasm/releasebuilds/2.14.02/nasm-2.14.02.tar.bz2",
+                "http://pkgs.fedoraproject.org/repo/pkgs/nasm/nasm-2.14.02.tar.bz2/sha512/d7a6b4cee8dfd603d8d4c976e5287b5cc542fa0b466ff989b743276a6e28114e64289bf02a7819eca63142a5278aa6eed57773007e5f589e15768e6456a8919d/nasm-2.14.02.tar.bz2",
+                "http://www.nasm.us/pub/nasm/releasebuilds/2.14.02/nasm-2.14.02.tar.bz2"
+              ],
+              "strip_prefix": "nasm-2.14.02",
+              "build_file": "//third_party/nasm:nasm.BUILD",
+              "system_build_file": "//third_party/nasm:BUILD.system",
+              "link_files": {
+                "//third_party/nasm:config.h": "config/config.h"
+              }
+            }
+          },
+          "nvshmem": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "2146ff231d9aadd2b11f324c142582f89e3804775877735dc507b4dfd70c788b",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/developer.download.nvidia.com/compute/redist/nvshmem/3.1.7/source/nvshmem_src_3.1.7-1.txz",
+                "https://developer.download.nvidia.com/compute/redist/nvshmem/3.1.7/source/nvshmem_src_3.1.7-1.txz"
+              ],
+              "strip_prefix": "nvshmem_src",
+              "build_file": "//third_party/nvshmem:nvshmem.BUILD",
+              "patch_file": [
+                "//third_party/nvshmem:archive.patch"
+              ],
+              "type": "tar"
+            }
+          },
+          "onednn": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "071f289dc961b43a3b7c8cbe8a305290a7c5d308ec4b2f586397749abdc88296",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/oneapi-src/oneDNN/archive/refs/tags/v3.7.3.tar.gz",
+                "https://github.com/oneapi-src/oneDNN/archive/refs/tags/v3.7.3.tar.gz"
+              ],
+              "build_file": "//third_party/mkl_dnn:mkldnn_v1.BUILD",
+              "patch_file": [
+                "//third_party/mkl_dnn:setting_init.patch"
+              ],
+              "strip_prefix": "oneDNN-3.7.3"
+            }
+          },
+          "pthreadpool": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "f602ab141bdc5d5872a79d6551e9063b5bfa7ad6ad60cceaa641de5c45c86d70",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/google/pthreadpool/archive/0e6ca13779b57d397a5ba6bfdcaa8a275bc8ea2e.zip",
+                "https://github.com/google/pthreadpool/archive/0e6ca13779b57d397a5ba6bfdcaa8a275bc8ea2e.zip"
+              ],
+              "strip_prefix": "pthreadpool-0e6ca13779b57d397a5ba6bfdcaa8a275bc8ea2e"
+            }
+          },
+          "raft": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "032dce57b297e121352a1556bd9021410be30fcf319e158592f615e1990b2e58",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/rapidsai/raft/archive/refs/tags/v25.08.00.tar.gz",
+                "https://github.com/rapidsai/raft/archive/refs/tags/v25.08.00.tar.gz"
+              ],
+              "strip_prefix": "raft-25.08.00",
+              "build_file": "//third_party/raft:raft.BUILD",
+              "patch_file": [
+                "//third_party/raft:cudart_utils.hpp.patch",
+                "//third_party/raft:vectorized.cuh.patch",
+                "//third_party/raft:clang_cuda_intrinsics.h.patch",
+                "//third_party/raft:pr-2807.patch",
+                "//third_party/raft:logger_macros.hpp.patch",
+                "//third_party/raft:select_k_runner.hpp.patch",
+                "//third_party/raft:select_k_runner.cu.cc.patch",
+                "//third_party/raft:select_k_smoke_test.cu.cc.patch"
+              ]
+            }
+          },
+          "rapids_logger": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "9ef22efcc3e00affed254bf12b52c6775050bb55e93e010067c2fcd9620163c9",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/rapidsai/rapids-logger/archive/refs/tags/v0.1.1.tar.gz",
+                "https://github.com/rapidsai/rapids-logger/archive/refs/tags/v0.1.1.tar.gz"
+              ],
+              "strip_prefix": "rapids-logger-0.1.1",
+              "build_file": "//third_party/rapids_logger:rapids_logger.BUILD",
+              "patch_file": [
+                "//third_party/rapids_logger:smoke_test.cc.patch"
+              ]
+            }
+          },
+          "rmm": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "6931f4de923b617af8c3b97505d79fd3b7b6b5492c1b5a8cd8bcfdc147cdf458",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/rapidsai/rmm/archive/refs/tags/v25.08.00.tar.gz",
+                "https://github.com/rapidsai/rmm/archive/refs/tags/v25.08.00.tar.gz"
+              ],
+              "strip_prefix": "rmm-25.08.00",
+              "build_file": "//third_party/rmm:rmm.BUILD",
+              "patch_file": [
+                "//third_party/rmm:logger_macros.hpp.patch"
+              ]
+            }
+          },
+          "robin_map": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "a8424ad3b0affd4c57ed26f0f3d8a29604f0e1f2ef2089f497f614b1c94c7236",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/Tessil/robin-map/archive/refs/tags/v1.3.0.tar.gz",
+                "https://github.com/Tessil/robin-map/archive/refs/tags/v1.3.0.tar.gz"
+              ],
+              "strip_prefix": "robin-map-1.3.0",
+              "build_file": "//third_party/robin_map:robin_map.BUILD"
+            }
+          },
+          "rocm_device_libs": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "f715a0a9c3c1a2b09a79939016ed53a0cbd454f7b0ea4ef32878433275c7b16c",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/ROCm/llvm-project/archive/c93c6e5451544e9ead12f2d2b15e1969b9a1bd04.tar.gz",
+                "https://github.com/ROCm/llvm-project/archive/c93c6e5451544e9ead12f2d2b15e1969b9a1bd04.tar.gz"
+              ],
+              "strip_prefix": "llvm-project-c93c6e5451544e9ead12f2d2b15e1969b9a1bd04/amd/device-libs",
+              "build_file": "//third_party/rocm_device_libs:rocm_device_libs.BUILD",
+              "patch_file": [
+                "//third_party/rocm_device_libs:prepare_builtins.patch"
+              ],
+              "link_files": {
+                "//third_party/rocm_device_libs:build_defs.bzl": "build_defs.bzl"
+              }
+            }
+          },
+          "shardy": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "eb1ce21c6302403d4d215c6f5be24a8790475c861e7303ead2728ab66edeef6d",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/openxla/shardy/archive/7fed8c5400d6ffd7e46e9ae318b7f55a5f67b91a.zip",
+                "https://github.com/openxla/shardy/archive/7fed8c5400d6ffd7e46e9ae318b7f55a5f67b91a.zip"
+              ],
+              "strip_prefix": "shardy-7fed8c5400d6ffd7e46e9ae318b7f55a5f67b91a",
+              "patch_file": [
+                "//third_party/shardy:temporary.patch"
+              ]
+            }
+          },
+          "slinky": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "e30625e2a3071ed674d48436bd671547f29825953ea7349c066c21322587ff6e",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/dsharlet/slinky/archive/e9c16e794b1a0a5f7bcc86565108a325f98c1422.zip",
+                "https://github.com/dsharlet/slinky/archive/e9c16e794b1a0a5f7bcc86565108a325f98c1422.zip"
+              ],
+              "strip_prefix": "slinky-e9c16e794b1a0a5f7bcc86565108a325f98c1422"
+            }
+          },
+          "spdlog": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "7a80896357f3e8e920e85e92633b14ba0f229c506e6f978578bdc35ba09e9a5d",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/gabime/spdlog/archive/refs/tags/v1.15.2.tar.gz",
+                "https://github.com/gabime/spdlog/archive/refs/tags/v1.15.2.tar.gz"
+              ],
+              "strip_prefix": "spdlog-1.15.2",
+              "build_file": "//third_party/spdlog:spdlog.BUILD",
+              "patch_file": [
+                "//third_party/spdlog:smoke_test.cc.patch"
+              ]
+            }
+          },
+          "stablehlo": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "c4b96f94d9d4aaa8b2dc88104579aab662aa33d59b79e77a9b75c8e0af3d9461",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/openxla/stablehlo/archive/baaf7475f8925cb0c5f9580408b3c0385f888487.zip",
+                "https://github.com/openxla/stablehlo/archive/baaf7475f8925cb0c5f9580408b3c0385f888487.zip"
+              ],
+              "strip_prefix": "stablehlo-baaf7475f8925cb0c5f9580408b3c0385f888487",
+              "patch_file": [
+                "//third_party/stablehlo:temporary.patch"
+              ]
+            }
+          },
+          "tensorrt_oss_archive": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "4fa2a712a5f2350b81df01d55c1dc17451e09efd4b2a53322b0433721009e1c7",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/NVIDIA/TensorRT/archive/9ec6eb6db39188c9f3d25f49c8ee3a9721636b56.tar.gz",
+                "https://github.com/NVIDIA/TensorRT/archive/9ec6eb6db39188c9f3d25f49c8ee3a9721636b56.tar.gz"
+              ],
+              "strip_prefix": "TensorRT-9ec6eb6db39188c9f3d25f49c8ee3a9721636b56",
+              "build_file": "//third_party/tensorrt/plugin:BUILD.bazel",
+              "patch_file": [
+                "//third_party/tensorrt/plugin:tensorrt_oss.patch"
+              ]
+            }
+          },
+          "triton": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "390ce756b3e0ce7be0a69633897f11bfd3227682ad90bd720fe4860bfedc4849",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/openxla/triton/archive/triton_integrate_branch-1.13.tar.gz",
+                "https://github.com/openxla/triton/archive/triton_integrate_branch-1.13.tar.gz"
+              ],
+              "strip_prefix": "triton-triton_integrate_branch-1.13",
+              "patch_file": [
+                "//third_party/triton:temporary/utility-fix.patch"
+              ]
+            }
+          },
+          "uv": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "71344f62c5020ed3643ad0bcba98ae4d7d6037285923c5416844d7c141a3ff93",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/dist.libuv.org/dist/v1.38.0/libuv-v1.38.0.tar.gz",
+                "https://dist.libuv.org/dist/v1.38.0/libuv-v1.38.0.tar.gz"
+              ],
+              "strip_prefix": "libuv-v1.38.0",
+              "build_file": "//third_party/uv:uv.BUILD"
+            }
+          },
+          "XNNPACK": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "e03c64b59e633944026356524f3862bb7a3809200a76cdd2bfb98758bd0378ee",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/google/XNNPACK/archive/2f108e3efda443ac9f233671cfacf2b3183b7e94.zip",
+                "https://github.com/google/XNNPACK/archive/2f108e3efda443ac9f233671cfacf2b3183b7e94.zip"
+              ],
+              "strip_prefix": "XNNPACK-2f108e3efda443ac9f233671cfacf2b3183b7e94"
+            }
+          },
+          "cutlass_archive": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "_tf_http_archive",
+            "attributes": {
+              "sha256": "a7739ca3dc74e3a5cb57f93fc95224c5e2a3c2dff2c16bb09a5e459463604c08",
+              "urls": [
+                "https://storage.googleapis.com/mirror.tensorflow.org/github.com/NVIDIA/cutlass/archive/refs/tags/v3.8.0.zip",
+                "https://github.com/NVIDIA/cutlass/archive/refs/tags/v3.8.0.zip"
+              ],
+              "build_file": "//third_party:cutlass.BUILD",
+              "strip_prefix": "cutlass-3.8.0"
+            }
+          }
+        },
+        "recordedRepoMappingEntries": []
+      }
+    },
+    "@@xla~//third_party/extensions:tsl.bzl%tsl_extension": {
+      "general": {
+        "bzlTransitiveDigest": "8+MSa38YyKxOs63KKATZhNww4SyhUKhsiPUNAy4QFTs=",
+        "usagesDigest": "W3b334v8hTHx5gpKwxGzoX3RAkC1N8cA+o1Ol8+Yqik=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "tsl": {
+            "bzlFile": "@@xla~//third_party:repo.bzl",
+            "ruleClassName": "tf_vendored",
+            "attributes": {
+              "path": "third_party/tsl"
+            }
+          }
+        },
+        "recordedRepoMappingEntries": []
       }
     }
   }

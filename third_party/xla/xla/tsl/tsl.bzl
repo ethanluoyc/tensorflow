@@ -36,7 +36,7 @@ load(
     "if_tensorrt",
 )
 load(
-    "@local_xla//third_party/py/rules_pywrap:pywrap.default.bzl",
+    "//third_party/py/rules_pywrap:pywrap.default.bzl",
     "use_pywrap_rules",
 )
 load(
@@ -73,9 +73,9 @@ def clean_dep(target):
     not_yet_moved = ["concurrency", "framework", "lib", "platform", "profiler", "protobuf"]
 
     if any([label.package.startswith("tsl/" + dirname) for dirname in not_yet_moved]):
-        return "@local_tsl//" + label.package + ":" + label.name
+        return Label("@tsl//" + label.package + ":" + label.name)
     else:
-        return str(label)
+        return Label(label)
 
 def if_cuda_or_rocm(if_true, if_false = []):
     """Shorthand for select()'ing whether to build for either CUDA or ROCm.

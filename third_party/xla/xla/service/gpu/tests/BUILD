@@ -90,7 +90,7 @@ xla_test(
             "//xla/ffi:ffi_api",
             "@com_google_absl//absl/algorithm:container",
             "@com_google_absl//absl/status",
-            "@local_tsl//tsl/platform:test",
+            "@tsl//tsl/platform:test",
         ],
     ) + [
         "//xla/stream_executor:device_memory",
@@ -123,7 +123,7 @@ xla_test(
         ":gpu_codegen_test",
         "//xla:literal_util",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:statusor",
+        "@tsl//tsl/platform:statusor",
     ],
 )
 
@@ -203,7 +203,7 @@ xla_test(
         "@com_google_absl//absl/strings:str_format",
         "@com_google_absl//absl/strings:string_view",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:test",
+        "@tsl//tsl/platform:test",
     ],
 )
 
@@ -226,7 +226,7 @@ xla_test(
         "@com_google_absl//absl/algorithm:container",
         "@com_google_absl//absl/status:statusor",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:statusor",
+        "@tsl//tsl/platform:statusor",
     ],
 )
 
@@ -244,8 +244,8 @@ xla_test(
         "//xla/stream_executor:stream_executor_memory_allocator",
         "@com_google_absl//absl/status:statusor",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:statusor",
-        "@local_tsl//tsl/platform:test",
+        "@tsl//tsl/platform:statusor",
+        "@tsl//tsl/platform:test",
     ],
 )
 
@@ -262,8 +262,8 @@ xla_test(
         "//xla/stream_executor:device_description",
         "@com_google_absl//absl/status:statusor",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:statusor",
-        "@local_tsl//tsl/platform:test",
+        "@tsl//tsl/platform:statusor",
+        "@tsl//tsl/platform:test",
     ],
 )
 
@@ -281,8 +281,8 @@ xla_test(
         "//xla/stream_executor:device_description",
         "@com_google_absl//absl/strings",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:statusor",
-        "@local_tsl//tsl/platform:test",
+        "@tsl//tsl/platform:statusor",
+        "@tsl//tsl/platform:test",
     ],
 )
 
@@ -303,7 +303,7 @@ xla_test(
         "//xla/hlo/testlib:verified_hlo_module",
         "//xla/tests:hlo_test_base",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:statusor",
+        "@tsl//tsl/platform:statusor",
     ],
 )
 
@@ -323,7 +323,7 @@ xla_test(
         "//xla:xla_proto_cc",
         "//xla/hlo/testlib:verified_hlo_module",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:statusor",
+        "@tsl//tsl/platform:statusor",
     ],
 )
 
@@ -345,8 +345,8 @@ xla_test(
         "//xla/hlo/testlib:verified_hlo_module",
         "@com_google_absl//absl/strings",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:statusor",
-        "@local_tsl//tsl/platform:test",
+        "@tsl//tsl/platform:statusor",
+        "@tsl//tsl/platform:test",
     ],
 )
 
@@ -361,7 +361,7 @@ xla_test(
         "//xla:error_spec",
         "//xla/hlo/testlib:verified_hlo_module",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:statusor",
+        "@tsl//tsl/platform:statusor",
     ],
 )
 
@@ -402,7 +402,7 @@ xla_test(
         "@llvm-project//llvm:Support",
         "@llvm-project//mlir:IR",
         "@llvm-project//mlir:Support",
-        "@local_tsl//tsl/platform:status_matchers",
+        "@tsl//tsl/platform:status_matchers",
     ],
 )
 
@@ -434,7 +434,7 @@ xla_test(
         "//xla/service:hlo_module_config",
         "//xla/tests:hlo_test_base",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:test",
+        "@tsl//tsl/platform:test",
     ],
 )
 
@@ -454,7 +454,7 @@ xla_test(
         "//xla/hlo/testlib:test_helpers",
         "//xla/tests:client_library_test_base",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:env",
+        "@tsl//tsl/platform:env",
     ],
 )
 
@@ -472,7 +472,7 @@ xla_test(
         "//xla/tests:hlo_test_base",
         "@com_google_absl//absl/status",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:test",
+        "@tsl//tsl/platform:test",
     ],
 )
 
@@ -487,7 +487,7 @@ xla_test(
         "//xla:xla_data_proto_cc",
         "//xla/hlo/ir:hlo",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:test",
+        "@tsl//tsl/platform:test",
     ],
 )
 
@@ -501,7 +501,7 @@ xla_test(
         "//xla:xla_data_proto_cc",
         "//xla/hlo/ir:hlo",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:test",
+        "@tsl//tsl/platform:test",
     ],
 )
 
@@ -515,7 +515,7 @@ xla_test(
         "//xla/service:hlo_module_config",
         "//xla/tests:hlo_test_base",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:test",
+        "@tsl//tsl/platform:test",
     ],
 )
 
@@ -526,7 +526,7 @@ xla_test(
     deps = [
         ":gpu_codegen_test",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:test",
+        "@tsl//tsl/platform:test",
     ],
 )
 
@@ -765,9 +765,9 @@ xla_test(
         "@com_google_absl//absl/strings",
         "@com_google_absl//absl/types:span",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:status",
-        "@local_tsl//tsl/platform:statusor",
-        "@local_tsl//tsl/platform:test",
+        "@tsl//tsl/platform:status",
+        "@tsl//tsl/platform:statusor",
+        "@tsl//tsl/platform:test",
     ] + if_cuda_is_configured([
         "//xla/service/gpu:stream_executor_util",
         "//xla/stream_executor:device_memory",
@@ -792,7 +792,7 @@ xla_test(
         "//xla/tests:hlo_pjrt_test_base",
         "//xla/tsl/platform:test",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:tensor_float_32_utils",
+        "@tsl//tsl/platform:tensor_float_32_utils",
     ],
 )
 
@@ -945,7 +945,7 @@ xla_test(
         ":gpu_codegen_test",
         "@com_google_absl//absl/strings:string_view",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:test",
+        "@tsl//tsl/platform:test",
     ],
 )
 

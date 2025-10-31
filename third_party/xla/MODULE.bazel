@@ -102,6 +102,8 @@ use_repo(
     "pthreadpool",
     "rocm_device_libs",
     "shardy",
+    "raft",
+    "cutlass_archive",
     "slinky",
     "stablehlo",
     "triton",

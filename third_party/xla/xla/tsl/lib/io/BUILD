@@ -18,7 +18,7 @@ package(
         "//tensorflow/core:__pkg__",
         "//tensorflow/core/lib/io:__subpackages__",
         "//xla/tsl/profiler:__subpackages__",
-        "@local_tsl//tsl/profiler:__subpackages__",
+        "@tsl//tsl/profiler:__subpackages__",
         "//tensorflow/core/profiler:__subpackages__",
         "//tensorflow/python/profiler/internal:__pkg__",
         "//third_party/xprof:__subpackages__",
@@ -51,10 +51,10 @@ cc_library(
         "//xla/tsl/platform:status",
         "//xla/tsl/platform:types",
         "@com_google_absl//absl/strings:string_view",
-        "@local_tsl//tsl/platform:coding",
-        "@local_tsl//tsl/platform:platform_port",
-        "@local_tsl//tsl/platform:raw_coding",
-        "@local_tsl//tsl/platform:stringpiece",
+        "@tsl//tsl/platform:coding",
+        "@tsl//tsl/platform:platform_port",
+        "@tsl//tsl/platform:raw_coding",
+        "@tsl//tsl/platform:stringpiece",
     ],
     alwayslink = True,
 )
@@ -93,7 +93,7 @@ cc_library(
         "@com_google_absl//absl/log:check",
         "@com_google_absl//absl/status",
         "@com_google_absl//absl/strings:string_view",
-        "@local_tsl//tsl/platform:coding",
+        "@tsl//tsl/platform:coding",
     ],
     alwayslink = True,
 )
@@ -106,7 +106,7 @@ cc_library(
         "//xla/tsl/platform:errors",
         "//xla/tsl/platform:status",
         "//xla/tsl/platform:types",
-        "@local_tsl//tsl/platform:cord",
+        "@tsl//tsl/platform:cord",
     ],
     alwayslink = True,
 )
@@ -118,7 +118,7 @@ cc_library(
     deps = [
         "//xla/tsl/platform:status",
         "@com_google_absl//absl/strings:string_view",
-        "@local_tsl//tsl/platform:stringpiece",
+        "@tsl//tsl/platform:stringpiece",
     ],
     alwayslink = True,
 )
@@ -128,9 +128,9 @@ cc_library(
     hdrs = ["proto_encode_helper.h"],
     deps = [
         "//xla/tsl/platform:logging",
-        "@local_tsl//tsl/platform:coding",
-        "@local_tsl//tsl/platform:protobuf",
-        "@local_tsl//tsl/platform:stringpiece",
+        "@tsl//tsl/platform:coding",
+        "@tsl//tsl/platform:protobuf",
+        "@tsl//tsl/platform:stringpiece",
     ],
 )
 
@@ -141,7 +141,7 @@ cc_library(
     deps = [
         ":inputstream_interface",
         "//xla/tsl/platform:env",
-        "@local_tsl//tsl/platform:cord",
+        "@tsl//tsl/platform:cord",
     ],
     alwayslink = True,
 )
@@ -164,8 +164,8 @@ cc_library(
         "//xla/tsl/platform:errors",
         "//xla/tsl/platform:macros",
         "//xla/tsl/platform:types",
-        "@local_tsl//tsl/platform:raw_coding",
-        "@local_tsl//tsl/platform:stringpiece",
+        "@tsl//tsl/platform:raw_coding",
+        "@tsl//tsl/platform:stringpiece",
     ],
     alwayslink = True,
 )
@@ -185,9 +185,9 @@ cc_library(
         "//xla/tsl/platform:macros",
         "//xla/tsl/platform:status",
         "//xla/tsl/platform:types",
-        "@local_tsl//tsl/platform:coding",
-        "@local_tsl//tsl/platform:cord",
-        "@local_tsl//tsl/platform:stringpiece",
+        "@tsl//tsl/platform:coding",
+        "@tsl//tsl/platform:cord",
+        "@tsl//tsl/platform:stringpiece",
     ],
     alwayslink = True,
 )
@@ -222,9 +222,9 @@ cc_library(
     ],
     deps = [
         "@com_google_absl//absl/synchronization",
-        "@local_tsl//tsl/platform:raw_coding",
-        "@local_tsl//tsl/platform:stringpiece",
-        "@local_tsl//tsl/platform:thread_annotations",
+        "@tsl//tsl/platform:raw_coding",
+        "@tsl//tsl/platform:stringpiece",
+        "@tsl//tsl/platform:thread_annotations",
     ],
 )
 
@@ -246,7 +246,7 @@ cc_library(
         "//xla/tsl/platform:env",
         "//xla/tsl/platform:errors",
         "@com_google_absl//absl/strings:string_view",
-        "@local_tsl//tsl/platform:coding",
+        "@tsl//tsl/platform:coding",
     ],
     alwayslink = True,
 )
@@ -264,7 +264,7 @@ cc_library(
         "//xla/tsl/lib/hash:crc32c",
         "//xla/tsl/platform:env",
         "//xla/tsl/platform:status",
-        "@local_tsl//tsl/platform:cord",
+        "@tsl//tsl/platform:cord",
     ],
 )
 
@@ -306,7 +306,7 @@ cc_library(
         "//xla/tsl/platform:macros",
         "//xla/tsl/platform:status",
         "//xla/tsl/platform:types",
-        "@local_tsl//tsl/platform:strcat",
+        "@tsl//tsl/platform:strcat",
         "@zlib",
     ],
     alwayslink = True,
@@ -323,7 +323,7 @@ cc_library(
         "//xla/tsl/platform:macros",
         "//xla/tsl/platform:status",
         "//xla/tsl/platform:types",
-        "@local_tsl//tsl/platform:stringpiece",
+        "@tsl//tsl/platform:stringpiece",
         "@zlib",
     ],
     alwayslink = True,
@@ -472,8 +472,8 @@ tsl_cc_test(
         "//xla/tsl/platform:test",
         "//xla/tsl/util:safe_reinterpret_cast",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:coding",
-        "@local_tsl//tsl/platform:raw_coding",
+        "@tsl//tsl/platform:coding",
+        "@tsl//tsl/platform:raw_coding",
     ],
 )
 
@@ -491,9 +491,9 @@ tsl_cc_test(
         "//xla/tsl/platform:status",
         "//xla/tsl/platform:test",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:coding",
-        "@local_tsl//tsl/platform:str_util",
-        "@local_tsl//tsl/platform:strcat",
+        "@tsl//tsl/platform:coding",
+        "@tsl//tsl/platform:str_util",
+        "@tsl//tsl/platform:strcat",
     ],
 )
 
@@ -539,7 +539,7 @@ tsl_cc_test(
         "//xla/tsl/platform:status",
         "//xla/tsl/platform:test",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:strcat",
+        "@tsl//tsl/platform:strcat",
         "@zlib",
     ],
 )
@@ -559,8 +559,8 @@ tsl_cc_test(
         "//xla/tsl/platform:errors",
         "//xla/tsl/platform:test",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:coding",
-        "@local_tsl//tsl/platform:str_util",
+        "@tsl//tsl/platform:coding",
+        "@tsl//tsl/platform:str_util",
     ],
 )
 
@@ -579,7 +579,7 @@ tsl_cc_test(
         "//xla/tsl/platform:test",
         "@com_google_absl//absl/strings",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:platform_port",
+        "@tsl//tsl/platform:platform_port",
     ],
 )
 
@@ -599,6 +599,6 @@ tsl_cc_test(
         "//xla/tsl/platform:test",
         "@com_google_absl//absl/strings",
         "@com_google_googletest//:gtest_main",
-        "@local_tsl//tsl/platform:strcat",
+        "@tsl//tsl/platform:strcat",
     ],
 )

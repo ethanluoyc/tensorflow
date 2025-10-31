@@ -120,7 +120,7 @@ cc_library(
         "@com_google_absl//absl/strings",
         "@com_google_absl//absl/strings:str_format",
         "@com_google_absl//absl/types:span",
-        "@local_tsl//tsl/platform:casts",
+        "@tsl//tsl/platform:casts",
     ],
 )
 
@@ -178,9 +178,9 @@ cc_library(
         "@com_google_absl//absl/synchronization",
         "@com_google_absl//absl/time",
         "@com_google_absl//absl/types:span",
-        "@local_tsl//tsl/platform:casts",
-        "@local_tsl//tsl/platform:hash",
-        "@local_tsl//tsl/profiler/lib:traceme",
+        "@tsl//tsl/platform:casts",
+        "@tsl//tsl/platform:hash",
+        "@tsl//tsl/profiler/lib:traceme",
     ],
 )
 
@@ -208,7 +208,7 @@ cc_library(
         "@com_google_absl//absl/log:check",
         "@com_google_absl//absl/status",
         "@com_google_absl//absl/status:statusor",
-        "@local_tsl//tsl/platform:casts",
+        "@tsl//tsl/platform:casts",
     ],
 )
 
@@ -333,8 +333,8 @@ cc_library(
         "@com_google_absl//absl/strings:string_view",
         "@com_google_absl//absl/synchronization",
         "@com_google_absl//absl/types:span",
-        "@local_tsl//tsl/platform:casts",
-        "@local_tsl//tsl/platform:numbers",
+        "@tsl//tsl/platform:casts",
+        "@tsl//tsl/platform:numbers",
     ] + if_cuda_is_configured([
         "//xla/tsl/cuda:nccl",
     ]) + if_rocm_is_configured([
@@ -402,8 +402,8 @@ cc_library(
         "@com_google_absl//absl/strings:string_view",
         "@com_google_absl//absl/synchronization",
         "@com_google_absl//absl/types:span",
-        "@local_tsl//tsl/platform:casts",
-        "@local_tsl//tsl/platform:numbers",
+        "@tsl//tsl/platform:casts",
+        "@tsl//tsl/platform:numbers",
     ] + if_cuda_is_configured([
         "//xla/tsl/cuda:nccl",
     ]) + if_rocm_is_configured([
@@ -458,8 +458,8 @@ cc_library(
         "@com_google_absl//absl/time",
         "@com_google_absl//absl/types:span",
         "@local_config_cuda//cuda:cuda_headers",
-        "@local_tsl//tsl/platform:casts",
-        "@local_tsl//tsl/platform:numbers",
+        "@tsl//tsl/platform:casts",
+        "@tsl//tsl/platform:numbers",
         "@nvshmem//:nvshmem_lib",
     ],
     alwayslink = True,

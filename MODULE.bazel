@@ -60,6 +60,50 @@ archive_override(
     urls = ["https://github.com/google-ml-infra/rules_ml_toolchain/archive/d8d8f49297a1e74fcceffc9ef6c7f8da9b0a0c53.tar.gz"],
 )
 
+bazel_dep(name = "xla", repo_name = "local_xla")
+local_path_override(
+    module_name = "xla",
+    path = "third_party/xla"
+)
+
+tsl_extension = use_extension("@local_xla//third_party/extensions:tsl.bzl", "tsl_extension")
+use_repo(tsl_extension, local_tsl = "tsl")
+
+third_party = use_extension("@local_xla//third_party/extensions:third_party.bzl", "third_party_ext")
+use_repo(
+    third_party,
+    "FXdiv",
+    "XNNPACK",
+    "cpuinfo",
+    "cudnn_frontend_archive",
+    "ducc",
+    "eigen_archive",
+    "farmhash_archive",
+    "farmhash_gpu_archive",
+    "gloo",
+    "highwayhash",
+    "hwloc",
+    "implib_so",
+    "llvm-raw",
+    "llvm_openmp",
+    "ml_dtypes_py",
+    "mpitrampoline",
+    "nanobind",
+    "nvshmem",
+    "onednn",
+    "pthreadpool",
+    "rocm_device_libs",
+    "shardy",
+    "FP16",
+    "raft",
+    "cutlass_archive",
+    "slinky",
+    "stablehlo",
+    "triton",
+    "gemmlowp",
+    "dlpack"
+)
+
 pybind11_internal_configure = use_extension(
     "@pybind11_bazel//:internal_configure.bzl",
     "internal_configure_extension",
@@ -111,3 +155,14 @@ maven.install(
     version_conflict_policy = "pinned",
 )
 use_repo(maven, "maven")
+
+### LLVM
+llvm = use_extension("@local_xla//third_party/extensions:llvm.bzl", "llvm_extension")
+use_repo(llvm, "llvm-project")
+
+### Other local config repos
+rocm_configure = use_extension("@local_xla//third_party/extensions:rocm_configure.bzl", "rocm_configure_ext")
+use_repo(rocm_configure, "local_config_rocm")
+
+tensorrt_configure = use_extension("@local_xla//third_party/extensions:tensorrt_configure.bzl", "tensorrt_configure_ext")
+use_repo(tensorrt_configure, "local_config_tensorrt")
